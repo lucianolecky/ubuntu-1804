@@ -1,11 +1,6 @@
 #!/bin/bash
-# Autor: Robson Vaamonde
-# Site: www.procedimentosemti.com.br
-# Facebook: facebook.com/ProcedimentosEmTI
-# Facebook: facebook.com/BoraParaPratica
-# YouTube: youtube.com/BoraParaPratica
-# Data de criação: 25/07/2020
-# Data de atualização: 09/06/2021
+# Autor: Luciano
+# Data de criação: 07/10/21
 # Versão: 0.04
 # Testado e homologado para a versão do Ubuntu Server 18.04.x LTS x64
 # Kernel >= 4.15.x
@@ -31,7 +26,7 @@
 # Zabbix server details
 #	Host: localhost
 #	Port: 10051
-#	Name: ptispo01ws01: Next step;
+#	Name: Ubuntu-Zabbix: Next step;
 # GUI settings
 #	Default time zone: System
 #	Default theme: Dark: NExt step;
@@ -69,7 +64,7 @@ LOG="/var/log/$(echo $0 | cut -d'/' -f2)"
 #
 # Declarando as variáveis para criação da Base de Dados do Zabbix Server
 USER="root"
-PASSWORD="pti@2018"
+PASSWORD="210926"
 #
 # opção do comando create: create (criação), database (base de dados), base (banco de dados), character set (conjunto de caracteres), 
 # collate (comparar)
