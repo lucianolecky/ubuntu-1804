@@ -1,10 +1,5 @@
 #!/bin/bash
-# Autor: Robson Vaamonde
-# Site: www.procedimentosemti.com.br
-# Facebook: facebook.com/ProcedimentosEmTI
-# Facebook: facebook.com/BoraParaPratica
-# YouTube: youtube.com/BoraParaPratica
-# Data de criação: 04/11/2018
+#
 # Data de atualização: 24/06/2021
 # Versão: 0.15
 # Testado e homologado para a versão do Ubuntu Server 18.04.x LTS x64
@@ -65,9 +60,7 @@
 # Site oficial: https://www.python.org/
 # Site oficial: https://www.phpmyadmin.net/
 #
-# Vídeo de instalação do GNU/Linux Ubuntu Server 18.04.x LTS: https://www.youtube.com/watch?v=zDdCrqNhIXI
-#
-# Variável da Data Inicial para calcular o tempo de execução do script (VARIÁVEL MELHORADA)
+# # Variável da Data Inicial para calcular o tempo de execução do script (VARIÁVEL MELHORADA)
 # opção do comando date: +%T (Time)
 HORAINICIAL=$(date +%T)
 #
@@ -89,7 +82,7 @@ LOG="/var/log/$(echo $0 | cut -d'/' -f2)"
 #
 # Variáveis de configuração do usuário root e senha do MySQL para acesso via console e do PhpMyAdmin
 USER="root"
-PASSWORD="pti@2018"
+PASSWORD="210926"
 AGAIN=$PASSWORD
 #
 # Variáveis de configuração e liberação da conexão remota para o usuário Root do MySQL
