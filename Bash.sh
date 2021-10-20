@@ -1,12 +1,4 @@
-#!/bin/bash
-#Autor: Robson Vaamonde
-#Site: www.procedimentosemti.com.br
-#Facebook: facebook.com/ProcedimentosEmTI
-#Facebook: facebook.com/BoraParaPratica
-#YouTube: youtube.com/BoraParaPratica
-#Data de criação: 01/07/2019
-#Data de atualização: 22/07/2020
-#Versão: 0.02
+
 
 #Comandos básicos de Bash/Shell
 
